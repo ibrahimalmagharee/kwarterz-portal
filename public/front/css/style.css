@@ -1,0 +1,1248 @@
+@font-face {
+    font-family: MontserratArabicArabic;
+    src: url('../fonts/ArbFONTS-Montserrat-Arabic-Black.ttf');
+  }
+
+  @font-face {
+    font-family: MontserratArabicBold;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Bold.ttf);
+  }
+  @font-face {
+    font-family: MontserratArabicExtraLight;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family: MontserratArabicLight;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Light.ttf);
+  }
+  @font-face {
+    font-family: MontserratArabicMedium;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: MontserratArabicRegular;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: MontserratArabicSemiBold;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: MontserratArabicThin;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Thin.ttf);
+  }
+.width-cust{
+    max-width: 90%;
+}
+
+  .rounded-cust-prod{
+      border-radius: 25px;
+  }
+  .rounded-cust-prod-right{
+      border-top-right-radius: 25px;
+      border-bottom-right-radius:25px ;
+  }
+  .MontserratArabic{
+      font-family:MontserratArabicArabic ;
+      font-weight: bold;
+  }
+  .MontserratArabicLight{
+    font-family:MontserratArabicLight ;
+    font-size: 20px; }
+    .MontserratArabicLightPure{
+        font-family:MontserratArabicLight ;
+ }
+  .MontserratArabic-logo{
+    font-family:MontserratArabicArabic ;
+    font-size: 30px;
+  }
+
+  .title h2{
+    font-family:MontserratArabicArabic ;
+    font-size: 26px;
+  }
+  .title p, .title button, .after-header-text, .first-btn, .card-text, .btn-yellow, .footer-col li a{
+    font-family:MontserratArabicLight ;
+    font-weight: lighter;
+  }
+
+  .section-title{
+    font-family:MontserratArabicSemiBold ;
+    text-align: right;
+  }
+
+  .card-text-cust{
+    margin-bottom: 5rem;
+  }
+
+  .card-title{
+    font-family:MontserratArabicSemiBold ;
+    font-size: 16px;
+
+  }
+
+  .font48{
+    font-size: 25px;
+}
+
+
+  .input-group>.form-control:not(:last-child) {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.footer-navbar-brand {
+    display: inline-block;
+    padding-bottom: 0.3125rem;
+    margin-right: 0rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+  .first-title{
+      font-family:MontserratArabicSemiBold ;
+      font-size: 25px;
+  }
+  .first-details{
+    font-family:MontserratArabicLight ;
+    font-size: 18px;
+
+  }
+
+
+  .camera{
+    position: relative;
+    bottom: 150px;
+    right: 190px;
+    border-radius: 50%;
+    background: white;
+    z-index: 11;
+    width: 30px;
+    height: 30px;
+  }
+  .fa{
+      position: relative;
+      left: 1.5px;
+  }
+
+
+
+body{
+    direction: rtl;
+}
+.header{
+    background: url('../assets/backgroundhome.jpeg') no-repeat center center fixed;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #FFC812;
+}
+
+.nav-vendor .navbar-nav .nav-link:hover{
+    color: #FFF;
+}
+.nav-icon{
+    background: black;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+}
+.title {
+    margin-top: 20%;
+    color: white;
+}
+.btn-yellow{
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    color: white;
+    background-image: linear-gradient(#FFC812, #E0AE0B);
+    border: 1px solid#FFC812;
+}
+.btn-yellow:hover{
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    color: #FFC812;
+    background: transparent;
+    border: 1px solid #FFC812;
+}
+
+.btn-yellow-about{
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: white;
+    background-image: linear-gradient(#FFC812, #E0AE0B);
+    border: 1px solid#FFC812;
+}
+.btn-yellow-about:hover{
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: #FFC812;
+    background: transparent;
+    border: 1px solid #FFC812;
+}
+
+.mx{
+    margin: 0 8rem;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+ .navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #FFC812;
+}
+.after-header{
+    background-color: #42413D;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 7.5%;
+    position: relative;
+    top: -70px;
+}
+
+.first.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    top: 350px;
+    right: 63%;
+}
+.first.owl-theme .owl-dots .owl-dot span{
+    background: white;
+}
+.first.owl-theme .owl-dots .owl-dot span:hover {
+    background: #FFC812;
+}
+.first.owl-theme .owl-dots .owl-dot.active span{
+    background: #FFC812;
+    width: 25px;
+}
+
+.owl-stage-outer{
+    padding: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: #FFC812;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(223, 222, 222);
+    position: absolute;
+    top: 40%;
+    right: 120px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: #6A6966;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(223, 222, 222);
+    position: absolute;
+    top: 40%;
+    left: 120px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #FFC812;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .border-3{
+    position: relative;
+  }
+  .border-3:after {
+    content: '';
+    height: 120%;
+    width: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #FFC812;
+  }
+
+
+.second.owl-theme .owl-nav.disabled + .owl-dots {
+    display: inline-block;
+    margin-top: 10px;
+    position: absolute;
+    top: -80px;
+    left: 85%;
+}
+.second.owl-theme .owl-dots .owl-dot span{
+    background: #FFC812;
+}
+.second.owl-theme .owl-dots .owl-dot span:hover {
+    background: #FFC812;
+}
+.second.owl-theme .owl-dots .owl-dot.active span{
+    background: #FFC812;
+}
+
+.owl-stage-outer{
+    padding: 10px;
+}
+
+.border-width-top{
+    position: relative;
+}
+.border-width-top::after{
+    content: "";
+    width: 5%;
+    height: 3px;
+    background: #FFC812;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+
+.border-width{
+    position: relative;
+}
+.border-width::after{
+    content: "";
+    width: 30%;
+    height: 1px;
+    background: #FFC812;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+
+.mr-company-custom{
+    margin-right: 25%;
+}
+.mx-company-custom{
+    margin:0 12.5%;
+}
+.ml-company-custom{
+    margin-left: 25%;
+}
+
+.cover{
+    width: 100%;
+    height: 80vmin;
+    background: url('../assets/olesia-buyar-HCRYIjtGybs-unsplash.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content>h5{
+    color: whitesmoke;
+}
+.btn-yellow-outline, .btn-yellow-outline:hover{
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    color: #FFC812;
+    background: white;
+    border: 1px solid #FFC812;
+}
+
+.link-title{
+    color:#FFC812 ;
+    text-decoration: none;
+}
+.link-title:hover {
+    color:#d6a400 ;
+    text-decoration: none;
+}
+
+.shadow-cust{
+    box-shadow: 1px 1px 5px 3px rgb(228, 228, 228);
+}
+
+
+.img-round{
+    width: 100px !important;
+    border:none;
+    position: relative;
+    top: -50px;
+}
+
+.card-body{
+    padding-top: 0;
+}
+.card-body .btn-yellow{
+    padding: .5rem 1rem;
+}
+
+.img-round-second{
+    width: 100px !important;
+    border:none;
+}
+
+.rounded-cust{
+    border-radius: 10px;
+}
+.special{
+    margin-top: 2rem !important;
+}
+
+
+footer{
+    overflow-x: hidden;
+    padding: 3vmin 18vmin 1vmin 18vmin;
+}
+.footer-col{
+    list-style:none !important;
+    text-align: right;
+}
+
+
+.section-1{
+    padding: 0 0vmin 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+    width: 80%;
+
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 12vmin;
+    right: 5vmin;
+    background: #FFC812 ;
+    border-top-right-radius: 50px;
+    /* padding: 13vmin 5vmin 8vmin 130min; */
+    height: 595px;
+    width: 182.4%;
+}
+
+.section-1 .row .col-md-6 .pray{
+    z-index: 1;
+    position: relative;
+    top: 4vmin;
+}
+
+.panel h3{
+    padding: 2rem 1rem !important;
+}
+
+.newdots{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+
+.mt-resp{
+    margin-top: 5rem !important;
+}
+
+
+/* about */
+.mx-about{
+    margin: 0 15.5rem;
+}
+
+.about-header{
+    background: url('../assets/Group\ 345@2x.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-header-img{
+    background: url('../assets/AboutGroup\ 344.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* register */
+
+.register-img{
+    background: url('../assets/RegisterMGroup\ 345.png') no-repeat center center fixed;
+    min-height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+
+}
+.login-img{
+    background: url('../assets/RegisterMGroup\ 345.png') no-repeat center center fixed;
+    height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position{
+    position: relative;
+    top: 60%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+  }
+
+.active2{
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    color: #e7b100 !important;
+}
+.active-input{
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffd857;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ffe48b;
+}
+
+  .form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 5px 10px 0 0px;
+    transition: all 200ms;
+    opacity: 0.5;
+    color: #495057;
+    transition: top 0.5s ease-in-out;
+  }
+
+  .focus.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffd857;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ffe48b;
+}
+
+  /* .form-control:focus + .form-control-placeholder{
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    color: #FFC812;
+  } */
+
+  .after-input{
+    position: absolute;
+    top: 7px;
+    left: 25px;
+  }
+  .log-after-input{
+    position: absolute;
+    top: 7px;
+    left: 25px;
+  }
+
+  .was-validated .form-control:invalid{
+    background-image:none;
+  }
+
+  .about-text{
+      font-size: 15px;
+  }
+  input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    font-family: MontserratArabicLight;
+    height: 40px;
+}
+
+
+.profile .profile-header .profile-header-content .profile-header-tab {
+    position: relative;
+    margin-left: 50px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+@media (max-width: 991.98px) {
+    .profile .profile-header .profile-header-content .profile-header-tab {
+        margin: -0.625rem -20px 0;
+        padding: 0 20px;
+        overflow: scroll;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+  /* loginten */
+
+  .icon-custom{
+    background: #FFC812;
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: white;
+  }
+
+  .profile-img{
+      position: relative;
+      top: -80px;
+      width: 165px;
+      left: 84%;
+  }
+
+  .profile-name{
+      position: relative;
+      bottom: 120px;
+  }
+
+  .font30 {
+      font-size: 18px;
+  }
+  .login-logo{
+      font-size: 35px;
+  }
+
+  .position p {
+    font-size: 16px;
+
+  }
+  .nav-tabs {
+    border-bottom: 1px solid #c9d2e3;
+}
+.profile .profile-header {
+    position: relative;
+}
+.profile .profile-header .profile-header-cover {
+    background: url('../assets/companyprofile1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 18rem;
+    position: relative;
+}
+@media (max-width: 991.98px) {
+    .profile .profile-header .profile-header-cover {
+        height: 6.25rem;
+    }
+}
+.profile .profile-header .profile-header-cover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.profile .profile-header .profile-header-content {
+    position: relative;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+}
+@media (max-width: 991.98px) {
+    .profile .profile-header .profile-header-content {
+        display: block;
+        padding: 0 20px;
+    }
+}
+.profile .profile-header .profile-header-content .profile-header-img {
+    width: 12.5rem;
+    height: 12.5rem;
+    overflow: hidden;
+    z-index: 10;
+    margin-top: -8.75rem;
+    padding: 0.1875rem;
+    background: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+@media (max-width: 991.98px) {
+    .profile .profile-header .profile-header-content .profile-header-img {
+        width: 4.375rem;
+        height: 4.375rem;
+        margin: -3.75rem 0 0;
+    }
+}
+.profile .profile-header .profile-header-content .profile-header-img img {
+    max-width: 100%;
+    width: 100%;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+.mt-6{
+    margin-top: 5.5rem !important;
+}
+.font28{
+    font-size: 25px;
+}
+
+.profile .profile-container {
+    padding: 30px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+@media (max-width: 991.98px) {
+    .profile .profile-container {
+        padding: 20px 20px;
+    }
+}
+
+.profile .profile-container .profile-content {
+    padding-left: 30px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+@media (max-width: 991.98px) {
+    .profile .profile-container .profile-content {
+        padding-left: 0;
+    }
+}
+
+
+
+  @media only screen and (min-device-width: 768px) and (max-device-width:1200px) {
+    .col-resp{
+
+    }
+
+    .width-cust{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .img-product{
+        width: 100%;
+    }
+      .camera {
+          display: none;
+      }
+      .resp{
+        padding-right: 3rem!important;
+
+      }
+    /* For general iPad layouts */
+    .section-1 {
+        padding: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: relative;
+        top: 0;
+        right: 0;
+        background: #FFC812 ;
+        border-top-right-radius: 50px;
+        height: 595px;
+
+    }
+
+    .section-1 .row .col-md-6 .pray{
+        display: none;
+    }
+
+    .panel .col-md-6{
+        max-width: 100%;
+    }
+  }
+
+/*
+mobile */
+
+@media only screen and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    .col-resp{
+        padding-right: 10% !important;
+    }
+    .width-cust{
+        max-width: 100%;
+
+    }
+    .img-product{
+        width: 100% !important;
+    }
+    .camera{
+        display: none;
+    }
+
+    .footer-logo{
+        margin: 0 auto;
+    }
+    .footer-col{
+        padding: 0;
+    }
+    .mx, .mx-about{
+        margin:0;
+    }
+
+    .title {
+        margin-top: 0%;
+    }
+
+    .first-title, .first-details{
+        text-align: center;
+    }
+    .first-btn{
+        margin-right: 15%;
+        margin-bottom: 10px;
+    }
+
+    .cover .content {
+        padding-top: 0vmin;
+    }
+
+    .most-sold{
+        text-align: center;
+    }
+
+    .opinions{
+        width: 300px !important;
+    }
+
+    .jacket{
+        width: 15.5rem !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot{
+        display: none;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+
+    .footer-col{
+        text-align: center;
+    }
+    .copy-right{
+        margin: auto;
+    }
+    .column{
+        text-align: center;
+    }
+
+    /* about */
+
+    .section-1 {
+        padding: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: relative;
+        top: 0;
+        right: 0;
+        background: #FFC812 ;
+        border-top-right-radius: 50px;
+        height: 595px;
+        width: 100%;
+    }
+
+    .section-1 .row .col-md-6 .pray{
+        display: none;
+    }
+
+    .about-last{
+        text-align: center !important;
+    }
+
+    .position {
+        top: 20%;
+        text-align: center !important;
+    }
+    .log{
+        text-align: center;
+        padding: 12px;
+    }
+    .button-margin{
+        margin-left: 2rem!important;
+    }
+    .about-header-sec{
+        display: none;
+    }
+    .about-header-img{
+       margin: 2rem 0  !important;
+       padding: 0 !important;
+       text-align: center !important;
+    }
+    .about-starter{
+        margin-top: 0 !important;
+        padding: 1rem!important;
+    }
+    .btn-yellow {
+        padding: .5rem 3rem;
+    }
+
+    .log{
+        margin: 6px !important;
+        padding: .5rem 1.1rem !important;
+    }
+
+    .reg-form-custom{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .card-resp{
+        width: 17rem !important;
+    }
+    .mt-resp{
+        margin-top: 1rem !important;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .font28{
+        font-size: 28px;
+    }
+    .img-product{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .about-text{
+        font-size: 28px;
+    }
+    .mr-company-custom{
+        margin-right: 22%;
+    }
+    .mx-company-custom{
+        margin:0 11%;
+    }
+    .ml-company-custom{
+        margin-left: 22%;
+    }
+
+
+    .card-title{
+        font-family:MontserratArabicSemiBold ;
+        font-size: 18px;
+
+      }
+
+    .after-header-text{
+        font-size: 20px !important;
+    }
+
+    .title h2{
+        font-family:MontserratArabicArabic ;
+        font-size: 30px;
+      }
+
+    .first-title{
+        font-family:MontserratArabicSemiBold ;
+        font-size: 35px;
+    }
+    .first-details{
+      font-family:MontserratArabicLight ;
+      font-size: 25px;
+
+    }
+
+    .MontserratArabic-logo{
+        font-family:MontserratArabicArabic ;
+        font-size: 40px;
+      }
+    .title {
+        margin-top: 10%  !important;
+    }
+
+    .container{
+        max-width: 1380px;
+    }
+
+
+.cover{
+    width: 100%;
+    height: 60vmin;
+    background: url('../assets/olesia-buyar-HCRYIjtGybs-unsplash.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 10vmin;
+}
+
+.first.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    top: 450px !important;
+    right: 63%;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.mt-resp{
+    position: relative;
+    top: 20px;
+    margin-top: 0 !important;
+    font-size: 22px;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 12vmin;
+    right: 4vmin;
+    background: #FFC812;
+    border-top-right-radius: 50px;
+    height: 753px;
+    width: 182.2%;}
+
+.card-title-cust{
+    font-size: 25px;
+}
+.card-text-cust{
+    line-height: 2rem;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.font48{
+    font-size: 48px;
+}
+.font30{
+    font-size: 28px;
+}
+
+.font-22{
+    font-size: 22px;
+    margin-top: 36px !important;
+}
+.ab-text{
+    line-height: 3.5rem;
+    text-align: right;
+}
+
+.login-img {
+    background: url(../assets/RegisterMGroup\ 345.png) no-repeat center center fixed;
+    height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1080px;
+}
+
+.login-logo{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.register-img {
+    background: url(../assets/RegisterMGroup\ 345.png) no-repeat center center fixed;
+    min-height: 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+
+    }
+
+@media screen and (min-width: 1800px) and (max-width: 2000px) {
+    .font28{
+        font-size: 28px;
+    }
+    .img-product{
+        max-width: 100%;
+        width: 100%;
+        float: right;
+    }
+    .about-text{
+        font-size: 28px;
+    }
+
+    .mr-company-custom{
+        margin-right: 26%;
+    }
+    .mx-company-custom{
+        margin:0 13%;
+    }
+    .ml-company-custom{
+        margin-left: 26%;
+    }
+    .card-title{
+        font-family:MontserratArabicSemiBold ;
+        font-size: 18px;
+
+      }
+
+    .title h2{
+        font-family:MontserratArabicArabic ;
+        font-size: 30px;
+      }
+
+    .card-text-cust{
+        margin-bottom: 1rem;
+      }
+    .first-title{
+        font-family:MontserratArabicSemiBold ;
+        font-size: 35px;
+        margin: 50px 0;
+    }
+    .first-details{
+      font-family:MontserratArabicLight ;
+      font-size: 25px;
+
+    }
+
+    .MontserratArabic-logo{
+        font-family:MontserratArabicArabic ;
+        font-size: 50px;
+      }
+
+    .login-logo{
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .register-img {
+        background: url(../assets/RegisterMGroup\ 345.png) no-repeat center center fixed;
+        min-height: 1080px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    .login-img {
+        background: url(../assets/RegisterMGroup\ 345.png) no-repeat center center fixed;
+        height: 625px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 1080px;
+    }
+
+    .ab-text{
+        line-height: 3.5rem;
+        text-align: right;
+    }
+    .title {
+        margin-top: 10%  !important;
+    }
+
+    .container{
+        max-width: 1600px;
+    }
+
+    .cover{
+        width: 100%;
+        height: 60vmin;
+        background: url('../assets/olesia-buyar-HCRYIjtGybs-unsplash.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cover .content{
+        background: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        width: 100%;
+        padding-top: 10vmin;
+    }
+
+    .mt-resp{
+        position: relative;
+        top: 20px;
+        margin-top: 0 !important;
+        font-size: 22px;
+    }
+
+    .font-22{
+        font-size: 22px;
+        margin-top: 36px !important;
+    }
+    .first.owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 10px;
+        position: absolute;
+        top: 520px !important;
+        right: 63%;
+    }
+    .card-title-cust{
+        font-size: 25px;
+    }
+    .card-text-cust{
+        line-height: 2rem;
+        font-size: 20px;
+    }
+
+    .font48{
+        font-size: 48px;
+    }
+    .font30{
+        font-size: 28px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: absolute;
+        top: 12vmin;
+        right: 5vmin;
+        background: #FFC812;
+        border-top-right-radius: 50px;
+        height: 865px;
+        width: 181.9%;
+        padding-right: 15px;
+    }
+
+    .form-row {
+        margin-top: 5px;
+    }
+    .form-control {
+        height: calc(2.5em + .75rem + 2px);
+    }
+
+
+    }
+

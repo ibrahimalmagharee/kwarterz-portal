@@ -1,0 +1,8 @@
+@font-face {
+    font-family: MontserratArabicLight;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Light.ttf);
+}
+
+*{
+    font-family: MontserratArabicLight !important;
+}
