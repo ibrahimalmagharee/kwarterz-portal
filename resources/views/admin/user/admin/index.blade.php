@@ -152,7 +152,7 @@
                 e.preventDefault();
                 $.ajax({
 
-                    url: '/admin/' + id+'/delete',
+                    url: '/kwarterz-portal/admin/' + id+'/delete',
                     type: 'delete',
                     data: {
                         "_token": "{{ csrf_token() }}",

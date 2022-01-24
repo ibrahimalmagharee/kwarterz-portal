@@ -153,7 +153,7 @@
                 e.preventDefault();
                 $.ajax({
 
-                    url: '/admin/course/'+course_id+'/lesson/' + lesson_id,
+                    url: '/kwarterz-portal/admin/course/'+course_id+'/lesson/' + lesson_id,
                     type: 'delete',
                     data: {
                         "_token": "{{ csrf_token() }}",

@@ -34,7 +34,7 @@
                                 <h4 class="card-title">كل تصنيفات الدورات</h4>
                                 <a class="heading-elements-toggle"><i class="la la-ellipsis-h font-medium-3"></i></a>
                                 <div class="heading-elements">
-                                    <a href="/admin/category/course/create" class="btn btn-primary btn-sm " id="add-category"><i class="ft-plus white"></i>اضافة صنف جديد </a>
+                                    <a href="{{route('category.course.create')}}" class="btn btn-primary btn-sm " id="add-category"><i class="ft-plus white"></i>اضافة صنف جديد </a>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +154,7 @@
                 e.preventDefault();
                 $.ajax({
 
-                    url: '/admin/category/' + id,
+                    url: '/kwarterz-portal/admin/category/' + id,
                     type: 'delete',
                     data: {
                         "_token": "{{ csrf_token() }}",

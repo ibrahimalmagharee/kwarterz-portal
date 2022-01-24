@@ -32,7 +32,7 @@
                                 <h4 class="card-title">كل الشركات </h4>
                                 <a class="heading-elements-toggle"><i class="la la-ellipsis-h font-medium-3"></i></a>
                                 <div class="heading-elements">
-                                    <a href="/admin/company/create" class="btn btn-primary btn-sm " id="add-company"><i class="ft-plus white"></i>اضافة شركة جديدة </a>
+                                    <a href="{{route('company.create')}}" class="btn btn-primary btn-sm " id="add-company"><i class="ft-plus white"></i>اضافة شركة جديدة </a>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                 e.preventDefault();
                 $.ajax({
 
-                    url: '/admin/company/' + id,
+                    url: '/kwarterz-portal/admin/company/' + id,
                     type: 'delete',
                     data: {
                         "_token": "{{ csrf_token() }}",

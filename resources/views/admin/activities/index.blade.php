@@ -140,7 +140,7 @@
                                 e.preventDefault();
                                 $.ajax({
 
-                                    url: '/admin/activity/'+id,
+                                    url: '/kwarterz-portal/admin/activity/'+id,
                                     type: 'delete',
                                     data: {
                                     "_token": "{{ csrf_token() }}",
@@ -177,16 +177,16 @@
                                     },
                                     success: function (data) {
                                         console.log('success:', data);
-                                        if (data.status === true) { 
+                                        if (data.status === true) {
                                             activityTable.draw();
                                         }
 
                                     }
 
                                 });
-                         
 
-                          
+
+
             });
             $('body').on('click', '.removeSlider', function (ee) {
                             ee.preventDefault();
@@ -201,16 +201,16 @@
                                     },
                                     success: function (data) {
                                         console.log('success:', data);
-                                        if (data.status === true) { 
+                                        if (data.status === true) {
                                             activityTable.draw();
                                         }
 
                                     }
 
                                 });
-                         
 
-                          
+
+
             });
         });
     </script>

@@ -177,7 +177,7 @@
                 e.preventDefault();
                 $.ajax({
 
-                    url: '/admin/course/' + id,
+                    url: '/kwarterz-portal/admin/course/' + id,
                     type: 'delete',
                     data: {
                         "_token": "{{ csrf_token() }}",

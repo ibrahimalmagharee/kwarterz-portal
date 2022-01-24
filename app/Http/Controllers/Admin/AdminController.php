@@ -33,7 +33,7 @@ class AdminController extends Controller
                       <button id="btnSearchDrop3" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="true" class="btn btn-primary dropdown-toggle dropdown-menu-right"><i class="ft-settings"></i></button>
                       <span aria-labelledby="btnSearchDrop3" class="dropdown-menu mt-1 dropdown-menu-right">
-                        <a href="/admin/'.$admin->id.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
+                        <a href="/kwarterz-portal/admin/'.$admin->id.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
                         <a href="javascript:void(0)" data-id="' . $admin->id . '" class="dropdown-item deleteAdmin"><i class="ft-trash-2"></i> حذف</a>
                       </span>
                     </span>

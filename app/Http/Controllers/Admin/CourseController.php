@@ -31,7 +31,7 @@ class CourseController extends Controller
             return DataTables::of(Course::query())
                 //->addIndexColumn()
                 ->addColumn('sections', function ($course) {
-                    return '<a href="/admin/course/'.$course->slug.'/section" data-id="' . $course->slug . '" class="dropdown-item showNew"><i class="ft-eye"></i> عرض</a>';;
+                    return '<a href="/kwarterz-portal/admin/course/'.$course->slug.'/section" data-id="' . $course->slug . '" class="dropdown-item showNew"><i class="ft-eye"></i> عرض</a>';;
                 })
                 ->editColumn('user_id', function ($new) {
                     return $new->user->name;
@@ -40,9 +40,9 @@ class CourseController extends Controller
                     return $course->category->name;
                 })
                 ->addColumn('lessons', function ($course) {
-                    return '<a href="/admin/course/'.$course->slug.'/lesson" data-id="' . $course->slug . '" class="dropdown-item showNew"><i class="ft-eye"></i> عرض</a>';;
+                    return '<a href="/kwarterz-portal/admin/course/'.$course->slug.'/lesson" data-id="' . $course->slug . '" class="dropdown-item showNew"><i class="ft-eye"></i> عرض</a>';;
                 }) ->addColumn('show', function ($course) {
-                    return '<a href="/admin/course/'.$course->slug.'" data-id="' . $course->slug . '" class="dropdown-item"><i class="ft-eye"></i> التفاصيل</a>';
+                    return '<a href="/kwarterz-portal/admin/course/'.$course->slug.'" data-id="' . $course->slug . '" class="dropdown-item"><i class="ft-eye"></i> التفاصيل</a>';
 
                  })
                 ->addColumn('actions', function ($course) {
@@ -57,7 +57,7 @@ class CourseController extends Controller
                       <button id="btnSearchDrop3" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="true" class="btn btn-primary dropdown-toggle dropdown-menu-right"><i class="ft-settings"></i></button>
                       <span aria-labelledby="btnSearchDrop3" class="dropdown-menu mt-1 dropdown-menu-right">
-                        <a href="/admin/course/'.$course->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
+                        <a href="/kwarterz-portal/admin/course/'.$course->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
                         <a href="javascript:void(0)" data-id="' . $course->slug . '" class="dropdown-item deleteCourse"><i class="ft-trash-2"></i> حذف</a>
                         <a href="javascript:void(0)" data-id="' . $course->id . '" class="dropdown-item '.$classSlider.'"><i class="ft-plus-2"></i>'.$textSlider.'</a>
 
@@ -178,7 +178,7 @@ class CourseController extends Controller
             $lec->delete();
         }
         $course->sections()->delete();
-        $course->slider->delete();
+        //$course->slider->delete();
         $course->delete();
         return response()->json([
             'status' => true,

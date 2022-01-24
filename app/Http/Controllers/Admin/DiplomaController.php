@@ -200,7 +200,7 @@ class DiplomaController extends Controller
             foreach($diploma->images as $image){
                 $image->delete();
             }
-            $diploma->slider->delete();
+           // $diploma->slider->delete();
             $diploma->delete();
             return response()->json([
                 'status' => true,
@@ -212,7 +212,7 @@ class DiplomaController extends Controller
             $diploma = Diploma::findOrFail($request->id);
             $slider = Slider::create([]);
             $diploma->slider()->save($slider);
-            
+
             return response()->json([
                 'status' => true,
                 'msg' => 'تمت الاضافة للسلايدر بنجاح'
@@ -221,7 +221,7 @@ class DiplomaController extends Controller
         public function removeSlider(Request $request){
             $diploma = Diploma::findOrFail($request->id);
             $diploma->slider->delete();
-            
+
             return response()->json([
                 'status' => true,
             ]);

@@ -29,7 +29,7 @@ class SectionController extends Controller
                       <button id="btnSearchDrop3" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="true" class="btn btn-primary dropdown-toggle dropdown-menu-right"><i class="ft-settings"></i></button>
                       <span aria-labelledby="btnSearchDrop3" class="dropdown-menu mt-1 dropdown-menu-right">
-                        <a href="/admin/course/'.$course->slug.'/section/'.$section->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
+                        <a href="/kwarterz-portal/admin/course/'.$course->slug.'/section/'.$section->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
                         <a href="javascript:void(0)" data-section_id="' . $section->slug . '"  data-course_id="' . $course->slug . '" class="dropdown-item deleteSection"><i class="ft-trash-2"></i> حذف</a>
                       </span>
                     </span>

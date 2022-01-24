@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d08643-aa68-463b-bff5-c80e198aad66" name="Default Changelist" comment="" />
+    <list default="true" id="f1d08643-aa68-463b-bff5-c80e198aad66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/uploads/courses/2/section/1/1643014618.1jKamFDAPULtMKI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/diplomas/1642869710.TeZuV1rlX6WwIrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/image_activity/1642868947.QfLUJWx1sXIcbq3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/image_activity/1642869458.uYp8amUE5idQgDE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/image_category/1642870091.gOyqc7jpo5UCbr3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/image_company/1642870447.BpRZTayeZ2lGBPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/image_course/1642869515.hn6oRDP1NxPUD6I" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/image_course/1642928960.eerPoYI2s8gMoft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/image_news/1642868212.wgcGW4fXKxUds4j" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ActivityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ActivityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ClientController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CompanyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/DiplomaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/DiplomaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LectureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LectureController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SectionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SocialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SocialController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/activities/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/activities/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/activity/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category/activity/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/course/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category/course/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/company/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/company/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/course/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/course/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/lesson/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/lesson/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/section/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/section/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/client/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/client/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,16 +162,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="23CdE7Ji2CCpO8zPM0XUqmevLmo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../posalti" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -171,24 +206,31 @@
       <workItem from="1628360808444" duration="252000" />
       <workItem from="1641241889081" duration="806000" />
       <workItem from="1641247223184" duration="5425000" />
+      <workItem from="1642849280456" duration="936000" />
+      <workItem from="1642867390832" duration="4004000" />
+      <workItem from="1642928766643" duration="1380000" />
+      <workItem from="1643014337882" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1641248632184">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1642930145523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1641248632184" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1642930145523" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1641241902146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1641241902146" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1641247232317">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1643041493236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1641247232317" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1643041493236" />
   </component>
 </project>

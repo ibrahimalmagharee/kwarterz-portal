@@ -30,7 +30,7 @@ class ActivityController extends Controller
                     return $activity->category->name;
                 })
                 ->addColumn('show', function ($activity) {
-                    return '<a href="/admin/activity/'.$activity->slug.'" data-id="' . $activity->id . '" class="dropdown-item"><i class="ft-eye"></i> التفاصيل</a>';;
+                    return '<a href="/kwarterz-portal/admin/activity/'.$activity->slug.'" data-id="' . $activity->id . '" class="dropdown-item"><i class="ft-eye"></i> التفاصيل</a>';;
                 })->editColumn('user_id', function ($activity) {
                     return $activity->user->name;
                  })
@@ -49,7 +49,7 @@ class ActivityController extends Controller
                       <button id="btnSearchDrop3" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="true" class="btn btn-primary dropdown-toggle dropdown-menu-right"><i class="ft-settings"></i></button>
                       <span aria-labelledby="btnSearchDrop3" class="dropdown-menu mt-1 dropdown-menu-right">
-                        <a href="/admin/activity/'.$activity->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
+                        <a href="/kwarterz-portal/admin/activity/'.$activity->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
                         <a href="javascript:void(0)" data-id="' . $activity->slug . '" class="dropdown-item deleteActivity"><i class="ft-trash-2"></i> حذف</a>
                         <a href="javascript:void(0)" data-id="' . $activity->id . '" class="dropdown-item '.$classSlider.'"><i class="ft-plus-2"></i>'.$textSlider.'</a>
 
@@ -150,7 +150,7 @@ class ActivityController extends Controller
     }
     public function destroy(Activity $activity){
         $activity->image->delete();
-        $activity->slider->delete();
+     //   $activity->slider->delete();
         $activity->delete();
         return response()->json([
             'status' => true,

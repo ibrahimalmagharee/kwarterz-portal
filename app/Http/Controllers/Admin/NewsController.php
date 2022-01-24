@@ -31,7 +31,7 @@ class NewsController extends Controller
                     return '<img src="'. $new->image_path .'" border="0" style="width: 140px; height: 130;" class="img-rounded" align="center" />';
                 })
                 ->addColumn('show', function ($new) {
-                   return '<a href="/admin/news/'.$new->slug.'" data-id="' . $new->slug . '" class="dropdown-item"><i class="ft-eye"></i> التفاصيل</a>';
+                   return '<a href="/kwarterz-portal/admin/news/'.$new->slug.'" data-id="' . $new->slug . '" class="dropdown-item"><i class="ft-eye"></i> التفاصيل</a>';
 
                 })
                 ->editColumn('user_id', function ($new) {
@@ -49,7 +49,7 @@ class NewsController extends Controller
                       <button id="btnSearchDrop3" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="true" class="btn btn-primary dropdown-toggle dropdown-menu-right"><i class="ft-settings"></i></button>
                       <span aria-labelledby="btnSearchDrop3" class="dropdown-menu mt-1 dropdown-menu-right">
-                        <a href="/admin/news/'.$new->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
+                        <a href="/kwarterz-portal/admin/news/'.$new->slug.'/edit" class="dropdown-item"><i class="ft-edit-2"></i> تعديل</a>
                         <a href="javascript:void(0)" data-id="' . $new->id . '" class="dropdown-item '.$classSlider.'"><i class="ft-plus-2"></i>'.$textSlider.'</a>
                       </span>
                     </span>
@@ -162,7 +162,7 @@ class NewsController extends Controller
         $new = News::findOrFail($request->id);
         $slider = Slider::create([]);
         $new->slider()->save($slider);
-        
+
         return response()->json([
             'status' => true,
             'msg' => 'تمت الاضافة للسلايدر بنجاح'
@@ -171,7 +171,7 @@ class NewsController extends Controller
     public function removeSlider(Request $request){
         $new = News::findOrFail($request->id);
         $new->slider->delete();
-        
+
         return response()->json([
             'status' => true,
         ]);
